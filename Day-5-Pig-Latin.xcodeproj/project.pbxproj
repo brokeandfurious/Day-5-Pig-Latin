@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D700CB61FB2499500D9CA1D /* UserInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D700CB51FB2499500D9CA1D /* UserInput.m */; };
+		9D700CFC1FB27FB200D9CA1D /* NSString+Pig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D700CFB1FB27FB200D9CA1D /* NSString+Pig.m */; };
 		9DBEF8B41FB239FD00F433EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBEF8B31FB239FD00F433EF /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,8 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9D700CB41FB2499500D9CA1D /* UserInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInput.h; sourceTree = "<group>"; };
+		9D700CB51FB2499500D9CA1D /* UserInput.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInput.m; sourceTree = "<group>"; };
+		9D700CFB1FB27FB200D9CA1D /* NSString+Pig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Pig.m"; sourceTree = "<group>"; };
 		9DBEF8B01FB239FD00F433EF /* Day-5-Pig-Latin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Day-5-Pig-Latin"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DBEF8B31FB239FD00F433EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DBEF8C11FB23C5400F433EF /* NSString+Pig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Pig.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				9DBEF8B31FB239FD00F433EF /* main.m */,
+				9DBEF8C11FB23C5400F433EF /* NSString+Pig.h */,
+				9D700CFB1FB27FB200D9CA1D /* NSString+Pig.m */,
+				9D700CB41FB2499500D9CA1D /* UserInput.h */,
+				9D700CB51FB2499500D9CA1D /* UserInput.m */,
 			);
 			path = "Day-5-Pig-Latin";
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DBEF8B41FB239FD00F433EF /* main.m in Sources */,
+				9D700CB61FB2499500D9CA1D /* UserInput.m in Sources */,
+				9D700CFC1FB27FB200D9CA1D /* NSString+Pig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

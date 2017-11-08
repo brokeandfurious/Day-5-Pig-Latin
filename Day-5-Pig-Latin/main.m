@@ -7,11 +7,23 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "UserInput.h"
+#import "NSString+Pig.h"
 
 int main(int argc, const char * argv[]) {
+    
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+        UserInput* userInput = [[UserInput alloc]init];
+        NSString* typedShit = [userInput input];
+
+        // TYPED SHIT
+        NSLog(@"Typed shit: %@", typedShit);
+        
+        // PIGLATINIZED SHIT
+        NSLog(@"Pig shit: %@", [typedShit pigLatinize]);
+        
     }
+    
     return 0;
 }
